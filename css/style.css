@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@800&family=Oswald:wght@200;500&family=Poppins:ital,wght@0,400;0,700;0,800;1,600&family=Sansita+Swashed&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f2f0;
+  min-height: 100vh;
+}
+.container {
+  position: relative;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand-title {
+  font-size: 1.5rem;
+  margin: 1rem;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  left: 10px;
+  top: 0px;
+  padding: 25px;
+  z-index: 2;
+}
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar-links li {
+  list-style-type: none;
+}
+.navbar-links li a {
+  text-decoration: none;
+  padding: 1.6rem;
+  display: block;
+  color: black;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+hr {
+  width: 300px;
+  margin-left: 450px;
+  border-top: 2px solid black;
+}
+
+/* .........Hero Section ..... */
+
+.intro-section {
+}
+
+.navbar2 {
+  display: flex;
+  float: right;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar2-links ul {
+  margin-right: 15px;
+  display: grid;
+}
+.navbar2-links li {
+  list-style-type: none;
+}
+.navbar2-links li a {
+  text-decoration: none;
+  padding: 0.8rem;
+  display: block;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.Button-section {
+  position: absolute;
+  padding: 20px;
+  width: 330px;
+  right: 0;
+  top: 200px;
+}
+h3 {
+  color: #979696;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.action-btn {
+  padding: 10px 50px;
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 500;
+  cursor: pointer;
+}
+.main-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100vh;
+}
+/* .Main-HeadingText {
+} */
+
+h1,
+.First-text {
+  font-size: 130px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: absolute;
+  margin-top: -30px;
+  left: 450px;
+  color: #f5f2f0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.Second-text {
+  border: none;
+  position: absolute;
+  margin-top: 70px;
+  color: black;
+  margin-left: 120px;
+}
+
+footer {
+  width: 200px;
+  position: relative;
+  margin-top: 280px;
+  bottom: -20px;
+  left: 400px;
+  font-family: "Poppins";
+  font-size: 15px;
+}
+li:first-child {
+  font-weight: 900;
+  color: black;
+}
+.bar {
+  list-style: none;
+}
+.bar > li {
+  position: relative;
+}
+.bar > li:before {
+  content: "\25CF";
+  margin-right: 12px;
+  font-size: 25px;
+}
+.bar > li:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  border-left: 1px solid black;
+  margin-left: 7px;
+  height: 100%;
+}
+.bar > li:first-of-type:after {
+  top: 50%;
+}
+.bar > li:last-of-type:after {
+  top: 5%;
+}
+
+.image-cover {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 700px;
+  width: 350px;
+}
+.appostrope {
+  width: 30px;
+  height: 30px;
+}
+p {
+  font-family: "Poppins sans-serif";
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.arrow {
+  position: absolute;
+  width: 80px;
+  height: 100px;
+  right: 0;
+  bottom: 0;
+  margin-right: 50px;
+  opacity: 0.8;
+}
