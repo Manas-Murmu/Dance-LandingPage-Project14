@@ -129,7 +129,7 @@ h1,
 }
 
 footer {
-  width: 200px;
+  width: 250px;
   position: relative;
   margin-top: 280px;
   bottom: -20px;
@@ -137,11 +137,13 @@ footer {
   font-family: "Poppins";
   font-size: 15px;
 }
+
 li:first-child {
   font-weight: 900;
   color: black;
 }
 .bar {
+  margin-left: 50px;
   list-style: none;
 }
 .bar > li {
